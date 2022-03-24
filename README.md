@@ -22,5 +22,6 @@ export default {
 import ComponentA from './ComponentA.vue'
 ```
 - added a slot in <TheHeader></TheHeader>, fill in a h2
-!()[./src/assets/headerslot.png]
-!()[./src/assets/headerslot1.png]
+![](./src/assets/headerslot.png)
+
+![](./src/assets/headerslot1.png)
