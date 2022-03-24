@@ -27,3 +27,15 @@ import ComponentA from './ComponentA.vue'
 ![](./src/assets/headerslot.png)
 
 ![](./src/assets/headerslot1.png)
+- Then I created a list component in app.vue
+```javascript
+<ol class="myList">
+      <li v-for="item in sortList" v-bind:key="item.title">
+        {{ item.title }}
+      </li>
+    </ol>
+``` 
+- Then script
+![](./src/assets/listcomponent.png.png)
+- my friend Spark helped me to create a computed property that renders a modified version of the list
+![](./src/assets/computed.png)
